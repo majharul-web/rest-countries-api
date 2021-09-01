@@ -25,21 +25,21 @@
           <button class="btn btn-outline-primary mx-2" id="search-btn">Search</button>
         </div>
 
-        <!-- errors -->
-        <!-- <h3 id="error" class="text-center">result not found !</h3> -->
-
         <!-- spinner -->
-        <div class="d-flex justify-content-center d-none">
+        <div class="d-flex justify-content-center d-none" id="spinner">
           <div class="spinner-border text-danger d" role="status">
             <span class="visually-hidden">Loading...</span>
           </div>
         </div>
+
+        <!-- errors -->
+        <h3 id="error" class="text-center"></h3>
       </section>
 
       <!-- details -->
       <section>
-        <div class="row row-cols-1 row-cols-md-3 d-flex justify-content-center">
-          <div class="col">
+        <div id="details" class="row row-cols-1 row-cols-md-3 d-flex justify-content-center">
+          <!-- <div class="col">
             <div class="card my-4">
               <img class="img-thumbnail" src="Bangladesh.svg.png" alt="..." />
               <div class="card-body">
@@ -51,24 +51,13 @@
                 <button class="btn btn-info fw-bold text-white">See less</button>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
       <!-- main part -->
       <section>
-        <div id="country-container" class="row row-cols-1 row-cols-md-4 g-4">
-          <!-- <div class="col">
-            <div class="card">
-              <img class="img-thumbnail" src="Bangladesh.svg.png" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Bangladesh</h5>
-                <p class="card-text">Capital: <span class="fw-bold">Dakha</span></p>
-                <button class="btn btn-info fw-bold text-white">See Details</button>
-              </div>
-            </div>
-          </div> -->
-        </div>
+        <div id="country-container" class="row row-cols-1 row-cols-md-4 g-4"></div>
       </section>
     </main>
     <!--main js  -->
